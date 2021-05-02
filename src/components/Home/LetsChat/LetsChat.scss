@@ -1,7 +1,8 @@
 .input{
     font-family: 'poppins', 'serif';
     font-weight: 400;
-    min-width: 600px;
+    width: 100%;
+    max-width: 600px;
     background-color: #071e3d;
     border: 1px solid #CCD6F6;
     &:focus{
