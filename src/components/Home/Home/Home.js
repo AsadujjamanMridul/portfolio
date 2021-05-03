@@ -1,9 +1,10 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Navbar from '../../Shared/Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 import Header from '../Header/Header';
-import LetsChat from '../LetsChat/LetsChat';
+import LetsTalk from '../LetsTalk/LetsTalk';
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
             <Header/>
             <AboutMe/>
             <FeaturedProjects/>
-            <LetsChat/>
+            <LetsTalk/>
+            <Footer/>
         </div>
     );
 };

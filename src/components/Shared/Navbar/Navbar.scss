@@ -17,3 +17,17 @@
 .nav-link:hover{
     color: #21e6c1 !important;
 }
+
+.download-icon{
+    font-size: 1em;
+}
+
+.navbar-toggler{
+    &:focus {
+        outline: none !important;
+        border: 1px solid rgba(33, 230, 193, 0.3);
+        box-shadow: 0 0 10px rgba(33, 230, 193, 0.3);
+        background-color: #071e3d !important;
+        color: #ccd6f6;
+    }
+}
