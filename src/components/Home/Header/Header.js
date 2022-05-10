@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import TextScramble, { ScrambleTexts } from '@twistezo/react-text-scramble'
+import React from 'react';
+import TextScramble from '@twistezo/react-text-scramble'
 import './Header.scss'
 
 const scrambleTexts = [
@@ -35,12 +35,10 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='d-flex justify-content-center'>
-                        <button className="btn btn-dark btn-brand px-4 py-2 me-2">
-                            <a href="https://cutt.ly/Ubzrfkv" className='text-decoration-none color-5'>Resume</a>
-                        </button>
-                        <button className="btn btn-dark btn-brand-fill px-4 py-2">
-                            <a href="https://www.linkedin.com/in/asadujjaman-mridul-410000194/" className='text-decoration-none color-1' target='_blank'>Hire Me</a>
-                        </button>
+                        <a href="https://cutt.ly/ybEono3" target='_blank' rel='noreferrer' 
+                        className='text-decoration-none color-5 btn btn-brand px-4 py-2 me-2 poppins'>Resume</a>
+
+                        <a href="https://www.linkedin.com/in/asadujjaman-mridul/" target='_blank' rel='noreferrer' className='text-decoration-none color-1 btn btn-brand-fill px-4 py-2 poppins'>Hire Me</a>
                     </div>
                 </div>
             </div>

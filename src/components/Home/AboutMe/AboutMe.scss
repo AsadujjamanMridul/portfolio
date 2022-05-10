@@ -25,3 +25,32 @@
 .pt-12{
     padding-top: 12vh !important;
 }
+
+.profile-image{
+    border-radius: 60px !important;
+}
+
+
+// Media query
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px){ 
+    .profile-image{
+        border-radius: 20px !important;
+    }
+   }
+  
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 767.98px) and (min-width: 575.98px)  { 
+    .profile-image{
+        border-radius: 30px !important;
+    }
+   }
+  
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) { 
+    .profile-image{
+        border-radius: 30px !important;
+    }
+   }
+  

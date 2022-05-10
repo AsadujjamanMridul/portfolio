@@ -20,12 +20,12 @@ const Navbar = () => {
                     <div className="navbar-nav mt-md-0 mt-3">
                         <a className="nav-link active color-5 px-2 mx-auto" aria-current="page" href="#about">About Me</a>
                         <a className="nav-link color-5 px-2 mx-auto" href="#featured">Featured</a>
+                        <a className="nav-link color-5 px-2 mx-auto" href="#ongoing">Ongoing</a>
                         <a className="nav-link color-5 px-2 mx-auto me-md-2" href="#chat">Contact</a>
-                        <button className="btn btn-dark btn-brand px-2 py-2 nav-link">
-                            <FontAwesomeIcon icon={faFileDownload} className='download-icon me-2 color-5' />
-                            <a href="https://cutt.ly/Ubzrfkv" className='text-decoration-none color-5'>Resume</a>
-                        </button>
-\                    </div>
+                        <a href="https://cutt.ly/ybEono3"  target="_blank" rel='noreferrer' className='text-decoration-none color-5 btn btn-brand px-2 py-2 nav-link'>
+                            <FontAwesomeIcon icon={faFileDownload} className='download-icon me-2 color-5' /> Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>

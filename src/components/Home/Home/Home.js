@@ -5,6 +5,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 import Header from '../Header/Header';
 import LetsTalk from '../LetsTalk/LetsTalk';
+import Ongoing from '../Ongoing/Ongoing';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Header/>
             <AboutMe/>
             <FeaturedProjects/>
+            <Ongoing/>
             <LetsTalk/>
             <Footer/>
         </div>

@@ -93,6 +93,18 @@ body {
   color: #CCD6F6;
 }
 
+.btn-brand:active {
+  background-color: #00142e !important;
+  border: 1px solid #21e6c1 !important;
+  color: #CCD6F6;
+}
+
+.btn-brand:visited {
+  background-color: #00142e !important;
+  border: 1px solid #21e6c1 !important;
+  color: #CCD6F6;
+}
+
 .btn-brand-fill {
   background-color: #21e6c1;
   border: 1px solid #21e6c1 !important;
@@ -100,6 +112,12 @@ body {
 }
 
 .btn-brand-fill:hover {
+  background-color: #03b695 !important;
+  border: 1px solid #21e6c1 !important;
+  color: #071e3d;
+}
+
+.btn-brand-fill:active {
   background-color: #03b695 !important;
   border: 1px solid #21e6c1 !important;
   color: #071e3d;

@@ -3,14 +3,14 @@ import './LetsTalk.scss'
 import { useForm } from "react-hook-form";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn, faCodepen, faInstagram, faFacebookSquare, faInstagramSquare, faTwitterSquare, faDiscord } from '@fortawesome/free-brands-svg-icons'
-import { faServer, faExternalLinkAlt, faMapMarker, faMarker, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { faBehanceSquare, faFacebookSquare, faInstagramSquare, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faMapMarker, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 import emailjs from 'emailjs-com';
 
 const LetsChat = () => {
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         let form = document.getElementById('form');
         emailjs.sendForm('service_94h0rls', 'template_4oq8e8c', form, 'user_OrCygEL9cm9s6YpEXcIDN')
@@ -65,20 +65,20 @@ const LetsChat = () => {
                         </address>
                         <p className='color-5 m-0 ms-2 mb-5 text-center phone'>
                             <FontAwesomeIcon icon={faPhoneAlt} className='me-3' />
-                            +880 19100 70303
+                            +880 19100 70303 , +880 18693 37724
                         </p>
 
                         <div className="d-flex justify-content-center align-items-center">
-                            <a href="https://facebook.com/asadujjaman.mridul" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook">
+                            <a href="https://facebook.com/asadujjaman.mridul" target="_blank" rel='noreferrer' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook">
                                 <FontAwesomeIcon icon={faFacebookSquare} className='social my-3 me-3' />
                             </a>
-                            <a href="https://instagram.com/asadujjaman.mridul" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram">
+                            <a href="https://instagram.com/asadujjaman.mridul" target="_blank" rel='noreferrer' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram">
                                 <FontAwesomeIcon icon={faInstagramSquare} className='social my-3 me-3' />
                             </a>
-                            <a href="https://facebook.com/asadujjaman.mridul" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter">
-                                <FontAwesomeIcon icon={faTwitterSquare} className='social my-3 me-3' />
+                            <a href="https://www.behance.net/asadujjmridul" target="_blank" rel='noreferrer' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter">
+                                <FontAwesomeIcon icon={faBehanceSquare} className='social my-3 me-3' />
                             </a>
-                            <a href="https://facebook.com/asadujjaman.mridul" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Discord">
+                            <a href="https://discordapp.com/users/551396889983975436" target="_blank" rel='noreferrer' data-bs-toggle="tooltip" data-bs-placement="bottom" title="Discord">
                                 <FontAwesomeIcon icon={faDiscord} className='social my-3' />
                             </a>
                         </div>
